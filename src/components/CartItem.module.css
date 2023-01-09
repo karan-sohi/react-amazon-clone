@@ -1,0 +1,25 @@
+.cartProduct {
+    display: flex;
+    padding: 1rem;
+}
+
+.productImage {
+    /* background-color: antiquewhite; */
+    width: 200px;
+}
+
+.productPic {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+
+.productInfo {
+  padding: 1rem;
+  font-weight: bold;
+  /* background-color: aliceblue; */
+}
+
+.productInfo button {
+    background-color: rgb(254, 189, 105);
+}

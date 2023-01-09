@@ -1,0 +1,47 @@
+
+.navBar {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(35, 47, 62);
+    color: white;
+    align-items: center;
+    height: 80px;
+    font-weight: bold;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    width: 100%;
+}
+
+.logo {
+    font-size: larger;
+}
+
+.navSearch {
+    width: 60%
+}
+
+.searchBar {
+    width: 60%;
+    padding: 0.5rem;
+}
+
+.navBar button {
+    all: unset;
+    padding: 7px 4px;
+    cursor: pointer;
+}
+
+.navBar a {
+    text-decoration: none;
+    color: white;
+}
+
+.searchButton {
+    background-color: rgb(254, 189, 105)
+}
+
+.cartIcon {
+    font-size: 30px;
+}

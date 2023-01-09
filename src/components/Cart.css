@@ -1,0 +1,27 @@
+.cartHeading {
+    display: flex;
+    position: relative;
+    top: 80px;
+    text-align: center;
+    padding: 30px;
+}
+
+.headingCart {
+    width: 70%;
+}
+
+.subtotal {
+    background-color: #f2f2f2;
+    width: 30%;
+    padding: 10px 5px;
+}
+
+.cartProducts {
+    background-color: #f2f2f2;
+}
+
+
+.checkoutButton {
+    background-color: rgb(254, 189, 105);
+    width: 60%;
+}
