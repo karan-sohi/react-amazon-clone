@@ -2,9 +2,9 @@
 .navBar {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     background-color: rgb(35, 47, 62);
     color: white;
-    align-items: center;
     height: 80px;
     font-weight: bold;
     position: fixed;
@@ -14,23 +14,32 @@
     width: 100%;
 }
 
+
 .logo {
     font-size: larger;
 }
 
 .navSearch {
-    width: 60%
+    width: 60%;
+    /* background-color: azure; */
+    display: flex;
+    height: 50%;
 }
 
 .searchBar {
-    width: 60%;
-    padding: 0.5rem;
+    width: 80%;
+        /* padding: 0.5rem;
+        height: 2.5rem; */
+    
 }
 
 .navBar button {
-    all: unset;
-    padding: 7px 4px;
+    /* all: unset; */
     cursor: pointer;
+}
+
+.navBarButtons {
+    all: unset;
 }
 
 .navBar a {
@@ -38,10 +47,28 @@
     color: white;
 }
 
+.signIn p {
+    line-height: 0;
+    font-size: small;
+}
+
 .searchButton {
-    background-color: rgb(254, 189, 105)
+    background-color: rgb(254, 189, 105);
+    padding: 3px;
+    width: 10%;
 }
 
 .cartIcon {
     font-size: 30px;
 }
+
+.searchIcon {
+    font-size: 30px;
+}
+
+.navBarButtons p  {
+    font-size: small;
+    font-weight: 100;
+    margin: 0;
+}
+

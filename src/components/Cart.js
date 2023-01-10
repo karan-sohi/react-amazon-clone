@@ -2,6 +2,7 @@ import "./Cart.css";
 import { useContext, useEffect, useState } from "react";
 import CartContext from "./store/cart-context";
 import CartItem from "./CartItem";
+import { NavLink } from "react-router-dom";
 
 const Cart = () => {
   const cartCtx = useContext(CartContext);
@@ -20,7 +21,7 @@ const Cart = () => {
             <input type="checkbox"></input>
             This item contains a gift
           </label>
-          <button className="checkoutButton">Proceed to Checkout</button>
+          <NavLink to="/orderItem"><button className="checkoutButton">Proceed to Checkout</button></NavLink>
         </div>
       </div>
 
